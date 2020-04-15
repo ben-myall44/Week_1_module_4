@@ -3,7 +3,7 @@ data <- read.table("household_power_consumption.txt", sep = ";", header=TRUE)
 
 subdata<-subset(data,Date=="1/2/2007"|Date=="2/2/2007")
 
-head(subdata)
+head(subdata) 
 
 #Formatting the data
 GAP<-select(subdata,Global_active_power)

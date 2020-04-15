@@ -27,7 +27,7 @@ with(subdata,{
   legend("topright", lty=1, col=c("black","red","blue"),legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"), cex = 0.6)
   plot(subdata$Time,as.numeric(as.character(subdata$Global_reactive_power)),type="l",xlab="datetime",ylab="Global_reactive_power")
 })
-#Save to PNG
+#Save to PNG 
 png(filename = "plot4.png")
 par(mfrow=c(2,2))
 
